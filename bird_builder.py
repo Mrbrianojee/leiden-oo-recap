@@ -1,4 +1,4 @@
-from Birds.bird import Bird
+from birds.bird import Bird
  
 my_bird = Bird("Owl", "Twit-Twoo!")
 
