@@ -8,3 +8,6 @@ class Seabird(Bird):
         
     def get_diving_depth(self):
         return self.diving_depth
+        
+    def get_description(self):
+        return Bird.get_description(self) +"\nand dives to adepth of {0} metres".format(self.diving_depth)
