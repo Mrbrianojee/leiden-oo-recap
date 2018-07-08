@@ -6,6 +6,13 @@ class Bird:
         self._the_kind =  kind
         self._the_call =  call
 
+
+    def call(self):
+        return self._the_call
+    
+    def kind(self):
+        return self._the_kind
+        
     def description(self):
-        return 'A {0} goes {1}'.format(self._the_kind, self._the_call)
+        return 'A {0} goes {1}'.format(self.kind(), self.call())
         
