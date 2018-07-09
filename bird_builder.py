@@ -10,7 +10,6 @@ my_bird = Seabird("Gull", "Squaawwk!!", 2)
 
 print(my_bird.get_description())
 
-
 my_bird = Fowl("Chicken", "BockBock!", 'landfowl')
 
 print(my_bird.get_description())
@@ -19,3 +18,5 @@ print(my_bird.get_description())
 my_bird = Fowl("Duck", "Quaaakk!!", 'Waterfowl')
 
 print(my_bird.get_description())
+
+

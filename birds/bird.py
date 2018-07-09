@@ -1,4 +1,4 @@
-class Bird:
+class Bird(object):
     _the_kind =  None
     _the_call =  None
     
