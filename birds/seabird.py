@@ -10,4 +10,4 @@ class Seabird(Bird):
         return self.diving_depth
         
     def get_description(self):
-        return super(Seabird, self).get_description() +"\nand dives to adepth of {0} metres".format(self.diving_depth)
+        return super(Seabird, self).get_description() +"\nand dives to a depth of {0} metres".format(self.diving_depth)

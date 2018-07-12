@@ -2,6 +2,10 @@ class Employee(object):
     
     BASE_SALARY =  5000
     
+    fname = ''
+    sname = ''
+    no_of_years = 0
+    
     def __init__(self, fname, sname, no_of_years):
         self.fname  = fname
         self.sname  = sname
@@ -38,7 +42,7 @@ class Developer(Employee):
         if self.prog_lang.lower() == "python":
             return basic_salary + basic_salary * .05
         elif self.prog_lang.lower() == "java":
-             return basic_salary + basic_salary * .01
+            return basic_salary + basic_salary * .01
             
     
     def get_details(self):

@@ -2,6 +2,8 @@ from bird import Bird
 
 class Fowl(Bird):
     
+    fowl_type = ''
+    
     fowl_types = {'landfowl':'Landfowl is an order of heavy-bodied ground-feeding birds',
                   'waterfowl':'Waterfowl is an order of birds that comprises three families: \nAnhimidae (the screamers)\n'
                                         'Anseranatidae (the magpie goose), \nAnatidae'

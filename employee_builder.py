@@ -7,4 +7,9 @@ from employees.employee import Employee, Developer
 
 my_developer = Developer('Harry', "Wurth", 5, "JAVA")
 
-print(my_developer.get_details())
+# print(my_developer.get_details())
+
+
+devs =  []
+devs.append(my_developer)
+print(devs[0].get_details())
